@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;700&display=swap');
+/* general config **/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0D4D68;
+}
+
+/* ------------------------------ **/
+
+/* nav config **/
+
+.nav-bar{
+    background-color:#2590BE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+.nav-bar .logo{
+    cursor: pointer;
+}
+
+.nav-bar .logo img{
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.nav-bar .logo img:hover{
+    transform: scale(1.2);
+}
+
+.nav-bar .nav-list{
+    list-style: none;
+}
+
+.nav-bar .nav-list li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-bar .nav-list li:hover{
+    transform: scale(1.1);
+}
+
+.nav-bar .nav-list a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-bar .nav-list a:hover{
+    color: #FFFEDD;
+}
+
+.nav-bar .btn button{
+    font-weight: 700;
+    color: #000;
+    padding: 9px 25px;
+    background: #FFFEDD;  
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-bar .btn button:hover{
+    background-color: lightblue;
+    color: #000;
+    transform: scale(1.1);
+}
+
+/* ------------------------------ **/
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+}
+
+main h3{
+    font-family: 'Bebas Neue';
+    color: #fff;
+    font-size: 20px;
+    user-select: none;
+    font-size: 100px;
+    line-height: 90px;
+    font-weight: normal;
+}
+
+span{
+    color: #2590BE;
+}
+
+
+
+/* Footer config **/
+
+footer{
+    background-color:#2590BE;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    user-select: none;
+}
+
+footer .footer-content{
+    display: flex;
+    justify-content: center;    
+}
+
+footer .footer-content p{
+    font-size: 20px;
+    padding: 5px;
+}
