@@ -4,31 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../img/logoDev.png">
     <title>Portfolio - Contact</title>
 </head>
-<body>
+<body id="bg-contact">
     
     <header class="nav-bar">
         <section class="logo">
-            <a href="../index.html"><img src="../img/logoDev.png" alt="logo dev"></a>
+            <img src="../img/logoDev.png" alt="logo dev">
         </section>
-
-        <nav>
-            <ul class="nav-list">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./aboutme.html">ABOUT ME</a></li>
-                <li><a href="./skills.html">SKILLS</a></li>
-                <li><a href="./proyects.html">PROYECTS</a></li>
-            </ul>
+        <input type="checkbox" id="check">
+        <label for="check" class="show-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="../index.html">HOME</a>
+            <a href="aboutme.html">ABOUT ME</a>
+            <a href="skills.html">SKILLS</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="#" class="contact-responsive">CONTACT</a>
+            <label for="check" class="hide-menu">
+                &#215
+            </label>
         </nav>
 
         <a href="#" class="btn"><button>CONTACT</button></a>
 
     </header>
 
-    <main>
+    <main class="contact-main">
 
         <div class="form">
 
@@ -36,40 +41,45 @@
 
             <form action="">
 
-                <input type="text" name="firstname" placeholder="First name">
-                <input type="text" name="lastname" placeholder="Last name"> <br>
-                <input type="text" name="mail" placeholder="Mail">
-                <input type="text" name="phone" placeholder="Phone"> <br>
-                <input type="text" name="message" placeholder="Message"> <br>
-                <input type="submit" name="submit" value="SUBMIT">
+                <input class="firstname" type="text" name="firstname" placeholder="First name">
+                <input class="lastname" type="text" name="lastname" placeholder="Last name">
+                <input class="mail" type="email" name="mail" placeholder="Mail">
+                <input class="phone" type="number" name="phone" placeholder="Phone">
+                <input class="message" type="text" name="message" placeholder="Message">
+                <input class="submit" type="submit" name="submit" value="Send">
 
             </form>
 
         </div>
 
         <div class="info-contact">
+            <div class="contact-info-container">   
+                <h3>
+                    CONTACT <br>
+                    <span>INFORMATION</span>
+                </h3>
 
-            <h3>
-                CONTACT <br>
-                <span>INFORMATION</span>
-            </h3>
-
-            <p>lucasg.ridolfi@gmail.com</p>
-            <p>1131975651</p>
-
+                <p>lucasg.ridolfi@gmail.com</p>
+            </div>
+            
             <h3>FOLLOW <span>ME</span></h3>
 
-            <p>Ridoolf</p>
-            <p>Ridoolf</p>
-            <p>Ridoolf</p>
-
+            <section>
+                <a target="_blank" href="https://www.instagram.com/ridoolf/"><img src="../img/instagram.svg" alt=""></a>
+            </section>
+            <section>
+                <a target="_blank" href="https://github.com/Ridoolf"><img src="../img/github.svg" alt=""></a>
+            </section>
+            <section>  
+                <a target="_blank" href="https://www.youtube.com/@lucasridolfi9273/featured"><img src="../img/youtube.svg" alt=""></a>
+            </section>
         </div>
 
 
     </main>
 
     <footer>
-        <div class="footer-content">
+        <div class="footer-container">
             <p>Copyright @ 2022 Ridoolf All Rights reserved</p>
         </div>
 

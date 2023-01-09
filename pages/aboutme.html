@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/aboutme.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../img/logoDev.png">
     <title>Portfolio - About Me</title>
 </head>
@@ -12,52 +12,53 @@
     
     <header class="nav-bar">
         <section class="logo">
-            <a href="../index.html"><img src="../img/logoDev.png" alt="logo dev"></a>
+            <img src="../img/logoDev.png" alt="logo dev">
         </section>
-
-        <nav>
-            <ul class="nav-list">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="#">ABOUT ME</a></li>
-                <li><a href="./skills.html">SKILLS</a></li>
-                <li><a href="./proyects.html">PROYECTS</a></li>
-            </ul>
+        <input type="checkbox" id="check">
+        <label for="check" class="show-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="../index.html">HOME</a>
+            <a href="#">ABOUT ME</a>
+            <a href="skills.html">SKILLS</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact.html" class="contact-responsive">CONTACT</a>
+            <label for="check" class="hide-menu">
+                &#215
+            </label>
         </nav>
 
-        <a href="./contact.html" class="btn"><button>CONTACT</button></a>
+        <a href="contact.html" class="btn"><button>CONTACT</button></a>
 
     </header>
 
-    <main class="main-about-me">
+    <main class="about-me-main">
 
-        <div class="content-main-aboutme">
-            
-            <section class="profile-photo">
-                <img src="../img/logo-aboutme.svg" alt="">
-            </section>
-
-            <div class="info-aboutme">
-                
+        <div class="container">
+            <div class="info-about-me">
                 <h1>
                     &lt; <br>
                     ABOUT <span>ME</span><br>
                     /&gt;
                 </h1>
-
+                <br>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique dolor rem est nulla voluptate iste dicta culpa, repudiandae, autem, libero eaque minima quo dignissimos dolore beatae blanditiis quia ad. Voluptates.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque autem reprehenderit voluptate est earum tempora, numquam labore delectus ipsa eligendi in et tenetur exercitationem necessitatibus harum qui sequi consequuntur dolore?    
-                </p>
-
+                    Extremely motivated to constantly develop my skills and grow professionally. <br>
+                    I am confident in my ability to come up with interesting ideas for unforgettable projects. 
+                </p>     
             </div>    
-
+            
+            <section class="profile-photo">
+                <img src="../img/me.jpg" alt="">
+            </section>
         </div>
-
+        
     </main>
 
     <footer>
-        <div class="footer-content">
-            <p>Copyright @ 2022 Ridoolf All Rights reserved</p>
+        <div class="footer-container">
+            <p>Copyright &copy; 2022 Ridoolf All Rights reserved</p>
         </div>
 
     </footer>

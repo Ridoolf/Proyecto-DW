@@ -12,35 +12,44 @@
     
     <header class="nav-bar">
         <section class="logo">
-            <a href="../index.html"><img src="../img/logoDev.png" alt="logo dev"></a>
+            <img src="../img/logoDev.png" alt="logo dev">
         </section>
-
-        <nav>
-            <ul class="nav-list">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="./aboutme.html">ABOUT ME</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="./proyects.html">PROYECTS</a></li>
-            </ul>
+        <input type="checkbox" id="check">
+        <label for="check" class="show-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="../index.html">HOME</a>
+            <a href="aboutme.html">ABOUT ME</a>
+            <a href="#">SKILLS</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact.html" class="contact-responsive">CONTACT</a>
+            <label for="check" class="hide-menu">
+                &#215
+            </label>
         </nav>
 
-        <a href="./contact.html" class="btn"><button>CONTACT</button></a>
+        <a href="contact.html" class="btn"><button>CONTACT</button></a>
 
     </header>
 
-    <main>
-        <h1> 
-            &lt; <br>
-            SKILL<span>S</span><br>
-            /&gt;
-        </h1>
-        <section>
-            <img src="../img/logo-skills.svg" alt="">
-        </section>
+    <main class="skills-main">
+        <div class="container">
+            <div class="title-skills">    
+                <h1> 
+                    &lt; <br>
+                    SKILL<span>S</span><br>
+                    /&gt;
+                </h1>
+            </div>
+            <section>
+                <img src="../img/logo-skills.svg" alt="">
+            </section>
+        </div>    
     </main>
 
     <footer>
-        <div class="footer-content">
+        <div class="footer-container">
             <p>Copyright @ 2022 Ridoolf All Rights reserved</p>
         </div>
 

@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+          /*NAV*/
+
+#contenido-nav{
+    margin-top: 20px;
+    color: #787a91;
+    justify-content: space-between;
+    display: flex;
+}
+
+#contenido-nav .img-nav img{
+    display: flex;
+    margin: 30px;
+    margin-top: -5px;
+    width: 200px;
+}
+
+#contenido-nav ul{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+
+.menu-nav{
+    margin-left: 200px;
+}
+ 
+#contenido-nav ul li a{
+    text-decoration: none;
+    margin: 15px;
+    font-size: 22px;
+    font-family: Roboto;
+    color: #191919;
+}       
+
+#contenido-nav ul li a:hover{
+    color: #AEA7A7;
+}
+
+#contenido-nav .idiomas{
+    display: flex;
+    padding-right: 5px;
+}
+
+#contenido-nav .mundo-idiomas{
+    width: 32px;
+    height: 35px;
+    margin-top: 15px;
+}   
+
+#contenido-nav .idiomas a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Roboto;
+    margin: 5px;
+    padding: 15px;
+    color: #191919;
+    transition: all 300ms ease-out;
+}     
+
+#contenido-nav .idiomas a:hover{
+    color: #AEA7A7;
+    transform: scale(1.110);
+}                                                            
+
+#contenido-nav .idiomas p{
+    padding: 20px 1px;
+    margin: 0;
+}
+  
+    /*MAIN*/
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+            /*ASIDE*/
+
+#publicidad{
+    display: inline-block;
+    float: right;
+    margin-left: 55px;
+    transition: all 300ms ease-out;
+    width: 300px;
+}
+
+#publicidad a{
+    text-decoration: none;
+}
+
+.cont-relac{
+    font-size: 22px;
+    font-family: Roboto;
+    color: #8E8888;
+}
+
+/*MARKETING*/
+
+.libro-marketing{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    font-size: 10px;    
+    font-family: Roboto;
+    color: #8E8888;
+    margin-top: 10px;
+    height: 310px;
+}
+
+.libro-marketing img{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.libro-marketing h2{
+    text-align: center;
+    font-size: 18px;
+}
+
+.libro-marketing p{
+    font-size: 15px;
+    font-family: Roboto;
+    text-align: center;
+    padding: 15px;
+}
+
+.libro-marketing:hover{
+    transform: scale(1.070);
+    color: #191919;
+}
+
+/*NETWORKING*/
+
+.networking{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    font-size: 10px;    
+    font-family: Roboto;
+    color: #8E8888;
+    margin-top: 30px;
+    height: 310px;
+}
+
+.networking img{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.networking h2{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.networking p{
+    font-size: 15px;
+    font-family: Roboto;
+    text-align: center;
+    padding: 15px;
+}
+
+.networking:hover{
+    transform: scale(1.070);
+    color: #191919;
+}
+
+/*CONTENIDO PRINCIPAL*/
+
+.contenedor-principal{
+    font-family: Quicksand;
+    margin: 25px;
+    max-width: 770px;
+}
+
+.sin-negrita{
+    font-weight: normal;
+}
+
+.contenedor-principal h1{
+    font-size: 50px;
+    font-family: Roboto;
+    margin-bottom: 10px;    
+}
+
+.contenedor-principal h6{
+    font-size: 20px;
+    color: #908B8B;
+}
+
+.contenedor-principal h4{
+    font-size: 29px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.contenedor-principal img{
+    width: 800px;
+    height: auto;
+}
+
+.contenedor-principal p{
+    font-size: 20px;
+    margin: 18px 0;
+    /*padding: 0 15px;*/
+}
+
+.contenedor-principal h5{
+    font-size: 20px;     
+}
+
+.contenedor-principal ul{
+    font-size: 20px;
+    padding-left: 33px;
+}
+
+.perfil{
+    display: flex;
+
+}
+
+.perfil img{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
