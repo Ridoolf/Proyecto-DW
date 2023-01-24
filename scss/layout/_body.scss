@@ -1,0 +1,10 @@
+body{
+    background-color: $bg-principal;
+    overflow-y: hidden;
+}
+
+h1{ font-family: $typo-h1; font-weight: normal; user-select: none;}
+span{ color: #2590BE; }
+a{ text-decoration: none; font-family: $typo-text;}
+li{ list-style: none; }
+p{ font-family: $typo-text; }

@@ -1,0 +1,15 @@
+footer{
+    background-color:#2590BE;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    user-select: none;
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        p{
+            font-size: 15px;
+            padding: 5px;
+        }    
+    }
+}

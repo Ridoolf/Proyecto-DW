@@ -1,0 +1,24 @@
+.about-me-main{
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20vh 10vw;
+        .info-about-me{
+            h1{
+                line-height: 75px;
+                font-size: 100px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .profile-photo{
+            img{
+                width: 300px;
+                border-radius: 150px;
+                margin: 25px;
+            }
+        }
+    }
+}

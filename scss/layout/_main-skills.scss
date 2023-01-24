@@ -1,0 +1,24 @@
+.skills-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .container{ 
+        .title-skills{
+            display: flex;
+            justify-content: center;
+            margin: 7vh 0;
+            h1{
+                line-height: 75px;
+                font-size: 90px;
+            }
+        }
+        section{
+            img{
+                width: 35rem;
+                height: auto;
+                cursor: pointer;
+                margin-top: -75px;
+            }
+        }
+    }
+}
