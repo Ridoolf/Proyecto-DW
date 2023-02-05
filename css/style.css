@@ -692,11 +692,11 @@ footer {
     line-height: 55px; }
   .project-main .container .my-projects {
     width: 100%;
-    gap: 30px; }
+    gap: 10px; }
     .project-main .container .my-projects p {
       font-size: 18px; }
     .project-main .container .my-projects a img {
-      width: 250px; }
+      width: 230px; }
   /* Contact */
   .contact-main {
     margin: 50px 60px; }
