@@ -8,9 +8,11 @@
             line-height: 85px;
             font-size: 50px;
         }
-    }
-    .img-main img{
-        width: 500px;
-        height: auto;
+        .img-main{
+            img{
+                width: 500px;
+                height: auto;
+            }
+        }
     }
 }

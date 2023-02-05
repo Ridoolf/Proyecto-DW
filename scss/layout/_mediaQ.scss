@@ -67,8 +67,7 @@
             }
             .img-main{
                 img{
-                    margin-top: -25px;
-                    width: 350px;
+                    width: 350px !important;
                     height: auto;
                 }
             } 
@@ -279,8 +278,8 @@
     footer {
         .footer-container{
             p{
-                font-size: 12px;
-                padding: 5px;
+                font-size: 10px;
+                padding: 4px;
             }
         } 
     }
@@ -301,6 +300,7 @@
     /* Home */
     .home-main{
         .container{
+            margin-top: 200px;
             .title-main{
             font-size: 26px;
             line-height: 45px;
@@ -310,7 +310,7 @@
         .img-main{
             img{
             margin-top: 10px;
-            width: 250px;
+            width: 250px !important;
             }
         } 
     }
@@ -398,8 +398,8 @@
     .home-main {
         .container{ 
             .title-main{
-                font-size: 25px;
-                margin-top: -160px;
+                font-size: 22px;
+                line-height: 40px;
             } 
         }
         .img-main{
@@ -467,7 +467,7 @@
         }
         .img-main{
             img{
-                width: 250px;
+                width: 220px !important;
                 margin: 30px 0;
             }
         }
@@ -494,6 +494,7 @@
 
     .skills-main{
         .container{
+            margin: -40px;
             .title-skills{
                 h1{
                     margin-bottom: 50px;
@@ -506,6 +507,8 @@
             }
         }
     }
+
+    /* Projects */
     .project-main{
         .title-projects{
             margin-bottom: 10px;
@@ -528,6 +531,440 @@
             }
             .submit{
                 width: 100px;
+            }
+        }
+    }
+}
+
+@media (min-width:769px){
+    /* Nav */
+    
+    header{
+        height: 55px;
+        padding: 0 40px;
+    }
+    
+    .logo{
+        img{
+            width: 45px;
+        }
+    }
+    
+    .menu{
+        gap: 15px;
+        a{
+            font-size: 15px;
+        }
+    }
+    
+    .btn button{
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    /* Home */
+    
+    .home-main{
+        .container{
+            margin: 150px 5vw;
+            .title-main{
+                font-size: 25px;
+                line-height: 45px;
+            }
+            .img-main{
+                img{
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    /* About Me*/
+
+    .about-me-main{
+        .container{
+            .info-about-me{
+                h1{
+                    line-height: 45px;
+                    font-size: 55px;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+            .profile-photo{
+                img{
+                    width: 150px;
+                }
+            }
+        }
+    }
+
+    /* Skills */
+
+    .skills-main {
+        .container{ 
+            .title-skills{
+                h1{
+                    line-height: 45px;
+                    font-size: 50px;
+                }
+            }
+            section{
+                img{
+                    width: 28rem;
+                }
+            }
+        }
+    }
+
+    /* Projects */
+
+    .project-main{
+        .title-projects{
+            h1{
+                font-size: 50px;
+                line-height: 45px;
+            }
+        }
+        .container{
+            .my-projects{
+                width: 100%;
+                p{
+                    font-size: 15px;
+                }
+                a{
+                    img{
+                        width: 150px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Contact */
+
+    .contact-main{
+        h3{
+            font-size: 40px;
+            line-height: 40px;
+        }
+        form {
+            width: 90%;
+            gap: 5px;
+            input{
+                font-size: 12px;
+                padding: 7px;
+            }
+        }
+        
+        .info-contact{
+            p{
+                font-size: 14px;
+                margin: 25px 0;
+            }
+            section{
+                a{
+                    img{
+                        width: 30px;
+                        margin: 10px 0;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1024px){
+    /* Nav */
+    
+    header{
+        height: 65px;
+        padding: 0 45px;
+    }
+    
+    .logo{
+        img{
+            width: 55px;
+        }
+    }
+    
+    .menu{
+        gap: 17px;
+        a{
+            font-size: 18px;
+        }
+    }
+    
+    .btn button{
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    /* Home */
+    .home-main{
+        .container{
+            margin: 150px 8vw;
+            .title-main{
+                font-size: 30px;
+                line-height: 55px;
+            }
+            .img-main{
+                img{
+                    width: 350px;
+                }
+            }
+        }
+    }
+
+    /* About Me */
+
+    .about-me-main{
+        .container{
+            .info-about-me{
+                h1{
+                    line-height: 65px;
+                    font-size: 70px;
+                }
+                p{
+                    font-size: 22px;
+                }
+            }
+            .profile-photo{
+                img{
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    /* Skills */
+
+    .skills-main {
+        .container{ 
+            .title-skills{
+                h1{
+                    line-height: 55px;
+                    font-size: 60px;
+                }
+            }
+            section{
+                img{
+                    width: 30rem;
+                }
+            }
+        }
+    }
+
+    /* Projects */
+
+    .project-main{
+        .title-projects{
+            h1{
+                font-size: 60px;
+                line-height: 55px;
+            }
+        }
+        .container{
+            .my-projects{
+                width: 100%;
+                gap: 30px;
+                p{
+                    font-size: 18px;
+                }
+                a{
+                    img{
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* Contact */
+
+    .contact-main{
+        margin: 50px 60px;
+        h3{
+            font-size: 60px;
+            line-height: 50px;
+        }
+        form {
+            width: 75%;
+            gap: 10px;
+            input{
+                font-size: 20px;
+                padding: 10px;
+            }
+        }
+        
+        .info-contact{
+            p{
+                font-size: 20px;
+                margin: 25px 0;
+            }
+            section{
+                a{
+                    img{
+                        width: 35px;
+                        margin: 10px 0;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:1920px){
+    /* Nav */
+    
+    header{
+        height: 65px;
+        padding: 0 55px;
+    }
+    
+    .logo{
+        img{
+            width: 60px;
+        }
+    }
+    
+    .menu{
+        gap: 18px;
+        a{
+            font-size: 20px;
+        }
+    }
+    
+    .btn button{
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    /* Home */
+    
+    .home-main{
+        .container{
+            margin: 20vh 8vw;
+            .title-main{
+                font-size: 40px;
+                line-height: 75px;
+            }
+            .img-main{
+                img{
+                    width: 500px;
+                }
+            }
+        }
+    }
+
+    /* About Me */
+
+    .about-me-main{
+        .container{
+            .info-about-me{
+                h1{
+                    line-height: 80px;
+                    font-size: 90px;
+                }
+                p{
+                    font-size: 25px;
+                }
+            }
+            .profile-photo{
+                img{
+                    width: 270px;
+                }
+            }
+        }
+    }
+
+    /* Skills */
+
+    .skills-main {
+        .container{ 
+            .title-skills{
+                h1{
+                    line-height: 75px;
+                    font-size: 90px;
+                }
+            }
+            section{
+                img{
+                    width: 35rem;
+                }
+            }
+        }
+    }
+
+    /* Projects */
+
+    .project-main{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin-top: 1.5%;
+        width: 100vw;
+        .title-projects{
+            margin: 15px 80px;
+            h1{
+                line-height: 70px;
+                font-size: 85px;
+            }
+        }
+        .my-projects{
+            display: flex;
+            flex-direction: column;
+            margin: 60px 50px;
+            gap: 15px;
+            .project1,
+            .project2,
+            .project3{
+                a{
+                    img{
+                        width: 350px;
+                        margin-right: 30px;
+                    }
+                }
+                p{
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+
+    /* Contact */
+
+    .contact-main{
+        margin: 40px 80px;
+        h3{
+            font-size: 100px;
+            line-height: 90px;
+        }
+        form {
+            width: 100%;
+            gap: 20px;
+            input{
+                font-size: 24px;
+                padding: 10px;
+            }
+        }
+        
+        .info-contact{
+            p{
+                font-size: 24px;
+                margin: 25px 0;
+            }
+            section{
+                a{
+                    img{
+                        width: 40px;
+                        margin: 10px 0;
+                        padding: 5px;
+                    }
+                }
             }
         }
     }

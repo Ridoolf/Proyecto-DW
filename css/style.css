@@ -94,10 +94,9 @@ header {
   .home-main .container .title-main {
     line-height: 85px;
     font-size: 50px; }
-
-.home-main .img-main img {
-  width: 500px;
-  height: auto; }
+  .home-main .container .img-main img {
+    width: 500px;
+    height: auto; }
 
 .about-me-main .container {
   display: flex;
@@ -138,7 +137,7 @@ header {
   margin-top: 1.5%;
   width: 100vw; }
   .project-main .title-projects {
-    margin: 0 35px; }
+    margin: 10px 80px; }
     .project-main .title-projects h1 {
       line-height: 70px;
       font-size: 90px; }
@@ -151,7 +150,7 @@ header {
       align-items: center;
       width: 80%;
       gap: 30px;
-      margin: 1.45% 35px; }
+      margin: 0 35px 20px; }
       .project-main .my-projects .project1 a img {
         cursor: pointer;
         width: 21em;
@@ -169,7 +168,7 @@ header {
       align-items: center;
       width: 80%;
       gap: 30px;
-      margin: 1.45% 35px; }
+      margin: 0 35px 20px; }
       .project-main .my-projects .project2 a img {
         cursor: pointer;
         width: 21em;
@@ -187,7 +186,7 @@ header {
       align-items: center;
       width: 80%;
       gap: 30px;
-      margin: 1.45% 35px; }
+      margin: 0 35px 20px; }
       .project-main .my-projects .project3 a img {
         cursor: pointer;
         width: 21em;
@@ -336,8 +335,7 @@ footer {
         line-height: 50px;
         margin-top: -190px; }
     .home-main .img-main img {
-      margin-top: -25px;
-      width: 350px;
+      width: 350px !important;
       height: auto; }
   /* AboutMe */
   .about-me-main .container {
@@ -469,8 +467,8 @@ footer {
         box-shadow: none; }
   /* Footer */
   footer .footer-container p {
-    font-size: 12px;
-    padding: 5px; } }
+    font-size: 10px;
+    padding: 4px; } }
 
 @media (max-width: 425px) {
   /* Nav */
@@ -481,13 +479,15 @@ footer {
   .show-menu {
     margin-left: -15px; }
   /* Home */
-  .home-main .container .title-main {
-    font-size: 26px;
-    line-height: 45px;
-    margin-top: -170px; }
+  .home-main .container {
+    margin-top: 200px; }
+    .home-main .container .title-main {
+      font-size: 26px;
+      line-height: 45px;
+      margin-top: -170px; }
   .home-main .img-main img {
     margin-top: 10px;
-    width: 250px; }
+    width: 250px !important; }
   /* AboutMe */
   .about-me-main .container .info-about-me h1 {
     line-height: 40px;
@@ -526,8 +526,8 @@ footer {
     margin-left: -20px; }
   /* Home */
   .home-main .container .title-main {
-    font-size: 25px;
-    margin-top: -160px; }
+    font-size: 22px;
+    line-height: 40px; }
   .home-main .img-main img {
     height: auto;
     margin: 20px 0; }
@@ -558,7 +558,7 @@ footer {
     line-height: 38px;
     margin-top: -150px; }
   .home-main .img-main img {
-    width: 250px;
+    width: 220px !important;
     margin: 30px 0; }
   /* AboutMe */
   .about-me-main .container .info-about-me p {
@@ -566,10 +566,13 @@ footer {
   .about-me-main .container .profile-photo img {
     width: 210px; }
   /* Skills */
-  .skills-main .container .title-skills h1 {
-    margin-bottom: 50px; }
-  .skills-main .container section img {
-    width: 280px; }
+  .skills-main .container {
+    margin: -40px; }
+    .skills-main .container .title-skills h1 {
+      margin-bottom: 50px; }
+    .skills-main .container section img {
+      width: 280px; }
+  /* Projects */
   .project-main .title-projects {
     margin-bottom: 10px; }
     .project-main .title-projects h1 {
@@ -582,3 +585,216 @@ footer {
     width: 275px; }
   .contact-main form .submit {
     width: 100px; } }
+
+@media (min-width: 769px) {
+  /* Nav */
+  header {
+    height: 55px;
+    padding: 0 40px; }
+  .logo img {
+    width: 45px; }
+  .menu {
+    gap: 15px; }
+    .menu a {
+      font-size: 15px; }
+  .btn button {
+    font-size: 15px;
+    padding: 8px; }
+  /* Home */
+  .home-main .container {
+    margin: 150px 5vw; }
+    .home-main .container .title-main {
+      font-size: 25px;
+      line-height: 45px; }
+    .home-main .container .img-main img {
+      width: 300px; }
+  /* About Me*/
+  .about-me-main .container .info-about-me h1 {
+    line-height: 45px;
+    font-size: 55px; }
+  .about-me-main .container .info-about-me p {
+    font-size: 15px; }
+  .about-me-main .container .profile-photo img {
+    width: 150px; }
+  /* Skills */
+  .skills-main .container .title-skills h1 {
+    line-height: 45px;
+    font-size: 50px; }
+  .skills-main .container section img {
+    width: 28rem; }
+  /* Projects */
+  .project-main .title-projects h1 {
+    font-size: 50px;
+    line-height: 45px; }
+  .project-main .container .my-projects {
+    width: 100%; }
+    .project-main .container .my-projects p {
+      font-size: 15px; }
+    .project-main .container .my-projects a img {
+      width: 150px; }
+  /* Contact */
+  .contact-main h3 {
+    font-size: 40px;
+    line-height: 40px; }
+  .contact-main form {
+    width: 90%;
+    gap: 5px; }
+    .contact-main form input {
+      font-size: 12px;
+      padding: 7px; }
+  .contact-main .info-contact p {
+    font-size: 14px;
+    margin: 25px 0; }
+  .contact-main .info-contact section a img {
+    width: 30px;
+    margin: 10px 0;
+    padding: 5px; } }
+
+@media (min-width: 1024px) {
+  /* Nav */
+  header {
+    height: 65px;
+    padding: 0 45px; }
+  .logo img {
+    width: 55px; }
+  .menu {
+    gap: 17px; }
+    .menu a {
+      font-size: 18px; }
+  .btn button {
+    font-size: 16px;
+    padding: 10px; }
+  /* Home */
+  .home-main .container {
+    margin: 150px 8vw; }
+    .home-main .container .title-main {
+      font-size: 30px;
+      line-height: 55px; }
+    .home-main .container .img-main img {
+      width: 350px; }
+  /* About Me */
+  .about-me-main .container .info-about-me h1 {
+    line-height: 65px;
+    font-size: 70px; }
+  .about-me-main .container .info-about-me p {
+    font-size: 22px; }
+  .about-me-main .container .profile-photo img {
+    width: 200px; }
+  /* Skills */
+  .skills-main .container .title-skills h1 {
+    line-height: 55px;
+    font-size: 60px; }
+  .skills-main .container section img {
+    width: 30rem; }
+  /* Projects */
+  .project-main .title-projects h1 {
+    font-size: 60px;
+    line-height: 55px; }
+  .project-main .container .my-projects {
+    width: 100%;
+    gap: 30px; }
+    .project-main .container .my-projects p {
+      font-size: 18px; }
+    .project-main .container .my-projects a img {
+      width: 250px; }
+  /* Contact */
+  .contact-main {
+    margin: 50px 60px; }
+    .contact-main h3 {
+      font-size: 60px;
+      line-height: 50px; }
+    .contact-main form {
+      width: 75%;
+      gap: 10px; }
+      .contact-main form input {
+        font-size: 20px;
+        padding: 10px; }
+    .contact-main .info-contact p {
+      font-size: 20px;
+      margin: 25px 0; }
+    .contact-main .info-contact section a img {
+      width: 35px;
+      margin: 10px 0;
+      padding: 5px; } }
+
+@media (min-width: 1920px) {
+  /* Nav */
+  header {
+    height: 65px;
+    padding: 0 55px; }
+  .logo img {
+    width: 60px; }
+  .menu {
+    gap: 18px; }
+    .menu a {
+      font-size: 20px; }
+  .btn button {
+    font-size: 18px;
+    padding: 10px; }
+  /* Home */
+  .home-main .container {
+    margin: 20vh 8vw; }
+    .home-main .container .title-main {
+      font-size: 40px;
+      line-height: 75px; }
+    .home-main .container .img-main img {
+      width: 500px; }
+  /* About Me */
+  .about-me-main .container .info-about-me h1 {
+    line-height: 80px;
+    font-size: 90px; }
+  .about-me-main .container .info-about-me p {
+    font-size: 25px; }
+  .about-me-main .container .profile-photo img {
+    width: 270px; }
+  /* Skills */
+  .skills-main .container .title-skills h1 {
+    line-height: 75px;
+    font-size: 90px; }
+  .skills-main .container section img {
+    width: 35rem; }
+  /* Projects */
+  .project-main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 1.5%;
+    width: 100vw; }
+    .project-main .title-projects {
+      margin: 15px 80px; }
+      .project-main .title-projects h1 {
+        line-height: 70px;
+        font-size: 85px; }
+    .project-main .my-projects {
+      display: flex;
+      flex-direction: column;
+      margin: 60px 50px;
+      gap: 15px; }
+      .project-main .my-projects .project1 a img,
+      .project-main .my-projects .project2 a img,
+      .project-main .my-projects .project3 a img {
+        width: 350px;
+        margin-right: 30px; }
+      .project-main .my-projects .project1 p,
+      .project-main .my-projects .project2 p,
+      .project-main .my-projects .project3 p {
+        font-size: 21px; }
+  /* Contact */
+  .contact-main {
+    margin: 40px 80px; }
+    .contact-main h3 {
+      font-size: 100px;
+      line-height: 90px; }
+    .contact-main form {
+      width: 100%;
+      gap: 20px; }
+      .contact-main form input {
+        font-size: 24px;
+        padding: 10px; }
+    .contact-main .info-contact p {
+      font-size: 24px;
+      margin: 25px 0; }
+    .contact-main .info-contact section a img {
+      width: 40px;
+      margin: 10px 0;
+      padding: 5px; } }
